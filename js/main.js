@@ -1,6 +1,5 @@
 "use strict";
 window.onload = function() {
-		console.log("graph1");
 		
 		// adds the chart to a container div in our html with an ID donut
 		// you can look up high charts docs but you do not need to understand below
@@ -29,6 +28,7 @@ window.onload = function() {
 			
 
 	}; //piechart
+
 					   
 function create_pie_chart() {
 	
@@ -37,7 +37,8 @@ function create_pie_chart() {
 			plotBackgroundColor: null,
 			plotBorderWidth: null,
 			plotShadow: false,
-			type: 'pie'
+			type: 'pie',
+			backgroundColor: '#ededed'
 		},
 		title: {
 			text: 'What do you feel needs to change the most to ensure more females choose to work in IT?'
@@ -94,7 +95,8 @@ function create_CS_chart() {
 
 	$('#graph2').highcharts({
 		chart: {
-			type: 'bar'
+			type: 'bar',
+			backgroundColor: '#ededed'
 		},
 		title: {
 			text: 'Female and Male split of students studying Computer Science BSc'
@@ -150,7 +152,8 @@ function create_GC_chart() {
 
 	$('#graph3').highcharts({
 		chart: {
-			type: 'bar'
+			type: 'bar',
+			backgroundColor: '#ededed'
 		},
 		title: {
 			text: 'Female and Male split of students studying Games Computing BSc'
@@ -208,7 +211,8 @@ function create_AL_chart() {
 
 	$('#graph4').highcharts({
 		chart: {
-			type: 'bar'
+			type: 'bar',
+			backgroundColor: '#ededed'
 		},
 		title: {
 			text: 'Female and Male split of students studying Computing and ICT at A Level across the UK'
