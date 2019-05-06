@@ -81,11 +81,10 @@ h2 {
 	position: relative;
 	text-align: center;
 	font-family: Helvetica;
-	font-size: 40px;
+	font-size: 30px;
 }
 .content {
   	height: 500px;
-	text-align: center;
   	background: #ededed;
   	position: relative;
   	z-index: 999999;
@@ -95,12 +94,16 @@ h2 {
 #GraphContent {
 	height: 120%;
 }
+#homeContent {
+	height: 100%;
+}
+
 .graph{
 	width: 60%;
 	height: 20vh;
 	display: block;
 	overflow: hidden;
-	background-color: #FFFFFF;
+	background-color: #ededed;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF363646', endColorstr='#FF2A2A3A');
     background-size: 100%;
 	margin-bottom: 20px;
@@ -109,40 +112,83 @@ h2 {
 #graph1, #graph2, #graph3, #graph4, #graph1Text, #graph2Text, #graph4Text {
 	z-index: 999999;
 	position: absolute;
+	background-color: #ededed;
 	transform: translate(-50%,-50%);
 }
 #graph1 {
 	left: 50%;
-	top: 13%;
+	top: 15%;
 }
 #graph1Text {
 	left: 50%;
-	top: 24%;
+	top: 26%;
+	width: 60%;
 }
 #graph2 {
 	left: 50%;
-	top: 36%;
+	top: 38%;
 }
 #graph2Text {
 	left: 50%;
-	top: 48%;
+	top: 50%;
+	width: 60%;
 }
 #graph3 {
 	left: 50%;
-	top: 61%;
+	top: 63%;
 }
 #graph4Text {
 	left: 50%;
-	top: 73%;
+	top: 75%;
+	width: 60%;
 }
 #graph4 {
 	left: 50%;
-	top: 87%;
+	top: 89%;
 }
 .twitter {
 	position: relative;
-	right: 25%;
+	left: 10%;
 }
 .fileIcon {
 	width: 7%;
+}
+#resources {
+	right: 50%;
+}
+.mySlides, .roleSlide {
+	display: none;	
+	width: 100%;
+	height: auto;
+
+}
+.roleModelSlide {
+	background-color: black;
+	overflow: hidden;
+	margin: auto;
+}
+.imageSlide {
+	background-color: black;
+	margin: auto;
+	overflow: hidden;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 550px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	box-sizing: border-box;
+}
+.columnText {
+	text-align: center;
+	font-family: Helvetica;
+	width: 70%;
+	margin: auto;
+	padding: 10%;
 }
