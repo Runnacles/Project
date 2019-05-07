@@ -92,10 +92,13 @@ h2 {
 }
 
 #GraphContent {
-	height: 120%;
+	height: 135%;
 }
 #homeContent {
 	height: 100%;
+}
+#resourcesContent {
+	height: 600px;
 }
 
 .graph{
@@ -117,34 +120,30 @@ h2 {
 }
 #graph1 {
 	left: 50%;
-	top: 15%;
+	top: 12%;
 }
 #graph1Text {
 	left: 50%;
-	top: 26%;
+	top: 22%;
 	width: 60%;
-	z-index: 999;
 }
 #graph2 {
 	left: 50%;
-	top: 38%;
+	top: 36%;
 }
 #graph2Text {
 	left: 50%;
-	top: 50%;
+	top: 48%;
 	width: 60%;
-	z-index: 9999;
 }
 #graph3 {
 	left: 50%;
-	top: 63%;
-	z-index: 1;
+	top: 62%;
 }
 #graph4Text {
 	left: 50%;
 	top: 75%;
 	width: 60%;
-	z-index: 9999;
 }
 #graph4 {
 	left: 50%;
@@ -152,18 +151,63 @@ h2 {
 }
 .twitter {
 	position: relative;
-	left: 10%;
+	float:left;
+	left:  10%;
+	width:50%;
+	overflow: hidden;
+}
+#events {
+	position: relative;
+	float: left;
+	width: 50%;
+	margin-top: 5%;
+	right: 3%;
+	overflow: hidden;
+}
+#eventsTable {
+	font-family: Helvetica;
+	border-collapse: collapse;
+}
+#eventsTable td, #eventsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#eventsTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+#eventsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #083F7D;
+  color: white;
 }
 .fileIcon {
 	width: 7%;
+
+}
+.linkText {
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: 18px;	
 }
 #resources {
-	right: 50%;
+	position: relative;
+	z-index: 999999;
+	left:  10%;
+}
+#resourceText {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	font-family: Helvetica;
+	font-size: 20px;
 }
 .mySlides, .roleSlide {
 	display: none;	
 	width: 100%;
 	height: auto;
+	overflow: hidden;
 
 }
 .roleModelSlide {
@@ -181,7 +225,8 @@ h2 {
 	width: 50%;
 	padding: 10px;
 	box-sizing: border-box;
-	height: 550px;
+	height: 570px;
+	overflow: hidden;
 }
 .row:after {
 	content: "";
@@ -195,4 +240,5 @@ h2 {
 	width: 70%;
 	margin: auto;
 	padding: 10%;
+	font-size: 18px;
 }
