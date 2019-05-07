@@ -84,7 +84,10 @@ function create_pie_chart() {
 				name: 'All of the above',
 				y: 13
 			}]
-		}]
+		}],
+		credits: {
+			enabled: false
+		}
 	});
 	
 }
@@ -134,7 +137,7 @@ function create_CS_chart() {
 			shadow: true
 		},
 		credits:  {
-			enables: false
+			enabled: false
 		},
 		series: [{
 			name: 'Male',
@@ -191,7 +194,7 @@ function create_GC_chart() {
 			shadow: true
 		},
 		credits:  {
-			enables: false
+			enabled: false
 		},
 		series: [{
 			name: 'Male',
@@ -250,7 +253,7 @@ function create_AL_chart() {
 			shadow: true
 		},
 		credits:  {
-			enables: false
+			enabled: false
 		},
 		series: [{
 			name: 'Males studying Computing',
