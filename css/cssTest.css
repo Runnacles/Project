@@ -123,6 +123,7 @@ h2 {
 	left: 50%;
 	top: 26%;
 	width: 60%;
+	z-index: 999;
 }
 #graph2 {
 	left: 50%;
@@ -132,6 +133,7 @@ h2 {
 	left: 50%;
 	top: 50%;
 	width: 60%;
+	z-index: 9999;
 }
 #graph3 {
 	left: 50%;
@@ -141,6 +143,7 @@ h2 {
 	left: 50%;
 	top: 75%;
 	width: 60%;
+	z-index: 9999;
 }
 #graph4 {
 	left: 50%;
