@@ -138,6 +138,7 @@ h2 {
 #graph3 {
 	left: 50%;
 	top: 63%;
+	z-index: 1;
 }
 #graph4Text {
 	left: 50%;
